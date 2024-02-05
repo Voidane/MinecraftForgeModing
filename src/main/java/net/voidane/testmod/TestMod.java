@@ -2,7 +2,6 @@ package net.voidane.testmod;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -55,6 +54,11 @@ public class TestMod
         if (event.getTabKey() == CreativeModeTabs.OP_BLOCKS)
         {
             event.accept(ModItems.MONEY);
+        }
+        else if (event.getTabKey() == CreativeModeTabs.INGREDIENTS)
+        {
+            event.accept(ModItems.SAPPHIRE);
+            event.accept(ModItems.RAW_SAPPHIRE);
         }
     }
 
