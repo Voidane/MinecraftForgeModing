@@ -1,5 +1,7 @@
 {
   "item.testmod.money": "Money",
   "item.testmod.sapphire": "Sapphire",
-  "item.testmod.raw_sapphire": "Raw Sapphire"
+  "item.testmod.raw_sapphire": "Raw Sapphire",
+
+  "creativetab.testmod_tab": "Test Mod Tab"
 }

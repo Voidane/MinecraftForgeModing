@@ -13,6 +13,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.voidane.testmod.CreativeModeTabs.TestModTab;
 import net.voidane.testmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -29,7 +30,10 @@ public class TestMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        // Item registry.
         ModItems.register(modEventBus);
+        // Creates a new creative mode tab.
+        TestModTab.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -51,15 +55,6 @@ public class TestMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if (event.getTabKey() == CreativeModeTabs.OP_BLOCKS)
-        {
-            event.accept(ModItems.MONEY);
-        }
-        else if (event.getTabKey() == CreativeModeTabs.INGREDIENTS)
-        {
-            event.accept(ModItems.SAPPHIRE);
-            event.accept(ModItems.RAW_SAPPHIRE);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
