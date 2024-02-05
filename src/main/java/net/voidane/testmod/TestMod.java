@@ -14,6 +14,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.voidane.testmod.CreativeModeTabs.TestModTab;
+import net.voidane.testmod.block.ModBlocks;
 import net.voidane.testmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -34,6 +35,8 @@ public class TestMod
         ModItems.register(modEventBus);
         // Creates a new creative mode tab.
         TestModTab.register(modEventBus);
+        // Block registry.
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

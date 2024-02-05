@@ -3,5 +3,8 @@
   "item.testmod.sapphire": "Sapphire",
   "item.testmod.raw_sapphire": "Raw Sapphire",
 
+  "block.testmod.sapphire_block": "Block of Sapphire",
+  "block.testmod.sapphire_ore": "Sapphire Ore",
+
   "creativetab.testmod_tab": "Test Mod Tab"
 }
