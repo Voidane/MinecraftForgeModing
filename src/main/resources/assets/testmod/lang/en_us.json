@@ -2,6 +2,7 @@
   "item.testmod.money": "Money",
   "item.testmod.sapphire": "Sapphire",
   "item.testmod.raw_sapphire": "Raw Sapphire",
+  "item.testmod.metal_detector": "Metal Detector",
 
   "block.testmod.sapphire_block": "Block of Sapphire",
   "block.testmod.sapphire_ore": "Sapphire Ore",
@@ -9,5 +10,7 @@
   "block.testmod.nether_sapphire_ore": "Nether Sapphire Ore",
   "block.testmod.endstone_sapphire_ore": "End Stone Sapphire Ore",
 
-  "creativetab.testmod_tab": "Test Mod Tab"
+  "creativetab.testmod_tab": "Test Mod Tab",
+
+  "testmod.block_translatable.metal_detector.tooltip.1": "§cThis item finds valuable ores"
 }
