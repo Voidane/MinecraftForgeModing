@@ -14,6 +14,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.voidane.testmod.CreativeModeTabs.TestModTab;
 import net.voidane.testmod.TestMod;
+import net.voidane.testmod.block.custom.SoundBlock;
 import net.voidane.testmod.item.ModItems;
 
 import java.util.function.Supplier;
@@ -41,6 +42,10 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(2f)
                     .requiresCorrectToolForDrops(), UniformInt.of(3,6)));
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)
+                    .strength(1)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {

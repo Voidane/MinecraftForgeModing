@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "/": {
+      "item": "minecraft:oak_planks"
+    },
+    "_": {
+      "item": "minecraft:jukebox"
+    }
+  },
+  "pattern": [
+    "///",
+    "/_/",
+    "///"
+  ],
+  "result": {
+    "item": "testmod:sound_block"
+  },
+  "show_notification": true
+}
