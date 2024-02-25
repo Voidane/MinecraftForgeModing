@@ -14,6 +14,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
+import net.voidane.testmod.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
 import java.awt.*;
@@ -52,7 +53,7 @@ public class MetalDetectorItem extends Item {
                 BlockState blockState = pContext.getLevel().getBlockState(
                         new BlockPos(blockPos.getX(),blockPos.getY()-i, blockPos.getZ()));
 
-                if (isValuable(blockState.getBlock()))
+                if (isValuable(blockState))
                 {
                     found = true;
                     // Send message to player
@@ -97,12 +98,9 @@ public class MetalDetectorItem extends Item {
         return false;
     }
 
-    private boolean isValuable(Block block)
+    private boolean isValuable(BlockState block)
     {
-        return (block == Blocks.COAL_ORE ||
-                block == Blocks.IRON_ORE ||
-                block == Blocks.DIAMOND_ORE ||
-                block == Blocks.COPPER_ORE);
+        return block.is(ModTags.Blocks.METAL_DETECTOR_VALUABLES);
     }
 
     @Override
