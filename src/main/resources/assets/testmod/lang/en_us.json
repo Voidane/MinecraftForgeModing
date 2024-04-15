@@ -11,6 +11,16 @@
   "block.testmod.nether_sapphire_ore": "Nether Sapphire Ore",
   "block.testmod.endstone_sapphire_ore": "End Stone Sapphire Ore",
   "block.testmod.sound_block": "Sound Block",
+  "block.testmod.sapphire_stairs": "Sapphire Stairs",
+  "block.testmod.sapphire_slab": "Sapphire Slab",
+  "block.testmod.sapphire_button": "Sapphire Button",
+  "block.testmod.sapphire_pressure_plate": "Sapphire Pressure Plate",
+  "block.testmod.sapphire_fence": "Sapphire Fence",
+  "block.testmod.sapphire_fence_gate": "Sapphire Fence Gate",
+  "block.testmod.sapphire_wall": "Sapphire Wall",
+  "block.testmod.sapphire_door": "Sapphire Door",
+  "block.testmod.sapphire_trapdoor": "Sapphire Trap Door",
+
 
   "creativetab.testmod_tab": "Test Mod Tab",
 

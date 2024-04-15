@@ -1,7 +1,16 @@
-// 1.20.2	2024-02-25T05:15:13.5961193	Loot Tables
+// 1.20.2	2024-04-15T18:02:43.3659159	Loot Tables
 a4147f156aafc88798c8472ff5651ff0e737535d data/testmod/loot_tables/blocks/deepslate_sapphire_ore.json
 315d90e3ce448393b824351f188378119be47616 data/testmod/loot_tables/blocks/endstone_sapphire_ore.json
 f5f48ea8d42a9cd0a1ce51912e0c564e191bda88 data/testmod/loot_tables/blocks/nether_sapphire_ore.json
 d091e5bf79e6a49afedd8fc1ac94ff4724210ab7 data/testmod/loot_tables/blocks/sapphire_block.json
+86765119d46fb1fbf51295badcc72831c6e92ae4 data/testmod/loot_tables/blocks/sapphire_button.json
+4177cf55bf68a592a87d1a9640e937083ae73fbf data/testmod/loot_tables/blocks/sapphire_door.json
+fb1768bbac0797b518171b6d5a52d7d209e68113 data/testmod/loot_tables/blocks/sapphire_fence.json
+810a02a1d08c6138d6f7802e3f09e0c6f548cbcc data/testmod/loot_tables/blocks/sapphire_fence_gate.json
 46e9567ada89ed6c7f53286c1fcfecb2efd59e3b data/testmod/loot_tables/blocks/sapphire_ore.json
+5f0ab2a656c97ca70b0bfe05e1814381888ddf70 data/testmod/loot_tables/blocks/sapphire_pressure_plate.json
+9e2f63c0d3087d7679f6df4489a5081a56caa018 data/testmod/loot_tables/blocks/sapphire_slab.json
+6bfbd515cc4e0c22f071851fe225582f0fd86bfe data/testmod/loot_tables/blocks/sapphire_stairs.json
+8e782becc9a5b6f0d5eba118b76d44284da777c7 data/testmod/loot_tables/blocks/sapphire_trapdoor.json
+6957b14d6ff9890650d299a4fdd1cddeefefc54b data/testmod/loot_tables/blocks/sapphire_wall.json
 26c8e5f0e5177a0abdcb57c0889b568c1c6fb50f data/testmod/loot_tables/blocks/sound_block.json

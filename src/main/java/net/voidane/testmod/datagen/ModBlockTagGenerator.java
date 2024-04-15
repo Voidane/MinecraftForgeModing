@@ -3,6 +3,7 @@ package net.voidane.testmod.datagen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -41,5 +42,17 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         // this.tag(BlockTags.NEEDS_DIAMOND_TOOL).add(/*None so far*/);
         // this.tag(BlockTags.NEEDS_STONE_TOOL).add(/*None so far*/);
         // this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL).add(/*None so far*/);
+
+        this.tag(BlockTags.FENCES).add(
+                ModBlocks.SAPPHIRE_FENCE.get()
+        );
+
+        this.tag(BlockTags.FENCE_GATES).add(
+                ModBlocks.SAPPHIRE_FENCE_GATE.get()
+        );
+
+        this.tag(BlockTags.WALLS).add(
+                ModBlocks.SAPPHIRE_WALL.get()
+        );
     }
 }
