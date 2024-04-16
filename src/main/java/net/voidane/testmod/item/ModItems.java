@@ -23,6 +23,9 @@ public class ModItems {
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
             () -> new Item((new Item.Properties().food(ModFoods.STRAWBERRY))));
 
+    public static final RegistryObject<Item> SAPPHIRE_STAFF = ITEMS.register("sapphire_staff",
+            () -> new Item((new Item.Properties().stacksTo(1))));
+
     public static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);
