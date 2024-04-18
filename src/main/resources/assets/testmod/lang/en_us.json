@@ -5,6 +5,11 @@
   "item.testmod.metal_detector": "Metal Detector",
   "item.testmod.strawberry": "Strawberry",
   "item.testmod.sapphire_staff": "Sapphire Staff",
+  "item.testmod.sapphire_sword": "Sapphire Sword",
+  "item.testmod.sapphire_shovel": "Sapphire Shovel",
+  "item.testmod.sapphire_axe": "Sapphire Axe",
+  "item.testmod.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.testmod.sapphire_hoe": "Sapphire Hoe",
 
   "block.testmod.sapphire_block": "Block of Sapphire",
   "block.testmod.sapphire_ore": "Sapphire Ore",
