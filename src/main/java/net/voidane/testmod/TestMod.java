@@ -16,6 +16,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.voidane.testmod.CreativeModeTabs.TestModTab;
 import net.voidane.testmod.block.ModBlocks;
 import net.voidane.testmod.item.ModItems;
+import net.voidane.testmod.loot.ModLootModifiers;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -37,6 +38,8 @@ public class TestMod
         TestModTab.register(modEventBus);
         // Block registry.
         ModBlocks.register(modEventBus);
+        // Custom Loot drops
+        ModLootModifiers.registerMethod(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
