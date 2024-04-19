@@ -11,6 +11,7 @@ import net.minecraftforge.common.loot.LootTableIdCondition;
 import net.voidane.testmod.TestMod;
 import net.voidane.testmod.item.ModItems;
 import net.voidane.testmod.loot.AddItemModifier;
+import net.voidane.testmod.loot.AddSusSandItemModifier;
 
 public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
 
@@ -35,6 +36,11 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
         // Add a metal detector to a jungle temple chest with 100% drop rate
         add("metal_detector_from_jungle_temples", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/jungle_temple")).build()
+        }, ModItems.METAL_DETECTOR.get()));
+
+        // Sus sand can drop a metal detector 50% chance
+        add("metal_detector_from_suspicious_sand", new AddSusSandItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("archaeology/desert_pyramid")).build()
         }, ModItems.METAL_DETECTOR.get()));
     }
 }
