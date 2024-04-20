@@ -1,4 +1,4 @@
-// 1.20.2	2024-04-18T18:03:05.9408106	Item Models: testmod
+// 1.20.2	2024-04-20T11:38:26.8885117	Item Models: testmod
 d89ed460e9c5a6a8a06b154ab143e4a5a06307a4 assets/testmod/models/item/metal_detector.json
 da9149881566cecb1f3e2d718fe259631ba6153f assets/testmod/models/item/money.json
 2f41f2b970d351507c3598ede3a24acfda5acc78 assets/testmod/models/item/raw_sapphire.json
@@ -62,3 +62,4 @@ fb33b86d47175d99e0d17f91511eacba77d40934 assets/testmod/models/item/sapphire_sta
 252c792abfd81ffc9c96451afdedeb6bf6be9eda assets/testmod/models/item/sapphire_trapdoor.json
 5d9a5be3a4877354861c81feb3adcf4459b96aec assets/testmod/models/item/sapphire_wall.json
 1a5f3e51550489650781874fac762f6c92b626d4 assets/testmod/models/item/strawberry.json
+a323c9eb3a842320faedc6ecd2ace15d40d85fea assets/testmod/models/item/strawberry_seeds.json
