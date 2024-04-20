@@ -16,6 +16,7 @@ import net.voidane.testmod.CreativeModeTabs.TestModTab;
 import net.voidane.testmod.TestMod;
 import net.voidane.testmod.block.custom.SoundBlock;
 import net.voidane.testmod.item.ModItems;
+import net.voidane.testmod.item.custom.StrawberryCropBlock;
 
 import java.util.function.Supplier;
 
@@ -77,6 +78,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> SAPPHIRE_TRAPDOOR = registerBlock("sapphire_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST).noOcclusion(),
                     BlockSetType.OAK));
+
+    public static final RegistryObject<Block> STRAWBERRY_CROP = BLOCKS.register("strawberry_crop",
+            () -> new StrawberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {

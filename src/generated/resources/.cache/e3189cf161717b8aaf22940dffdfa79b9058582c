@@ -1,4 +1,4 @@
-// 1.20.2	2024-04-15T18:02:43.3669162	Block States: testmod
+// 1.20.2	2024-04-20T11:38:26.8885117	Block States: testmod
 592a016a6656dcb60b662bf79098e9f53191b013 assets/testmod/blockstates/deepslate_sapphire_ore.json
 b4f2387ee5732cfa45570b7beea7cfb3949fc78c assets/testmod/blockstates/endstone_sapphire_ore.json
 b8283618095f416197c4f68848cc8209216e13be assets/testmod/blockstates/nether_sapphire_ore.json
@@ -14,6 +14,7 @@ be7d6dbc2a828fae7575f94a52da1ba8c19b3a55 assets/testmod/blockstates/sapphire_sta
 66896dec64105fd823f93ae95cbdf355d20d88f7 assets/testmod/blockstates/sapphire_trapdoor.json
 c40bd2a83c3ade7e0fab23c0bbecad2babdc8959 assets/testmod/blockstates/sapphire_wall.json
 ca468d346fe6f72dc5c6b14dfff70dd298ed49af assets/testmod/blockstates/sound_block.json
+d26e343c6cb3a2f6757035b3ee75e9bc455cc6ee assets/testmod/blockstates/strawberry_crop.json
 5f9a33e160a169fbfdba568ada7fbfc002ce5750 assets/testmod/models/block/deepslate_sapphire_ore.json
 bf23d34464647d0c0af4fd6cf1bad02b095083ba assets/testmod/models/block/endstone_sapphire_ore.json
 0df38c2f40b54f9b2431b35e93d1af459c38050d assets/testmod/models/block/nether_sapphire_ore.json
@@ -49,6 +50,12 @@ e9f8526a09b42c86c67c7c80f26752989e15ac9b assets/testmod/models/block/sapphire_tr
 0f5d4fd5224b0d281e7ea49cb110dea149716920 assets/testmod/models/block/sapphire_wall_side.json
 75d596c0a047d806535262613384b24fe9ce2c46 assets/testmod/models/block/sapphire_wall_side_tall.json
 ccce52e5b930faa3f9fdb458932384af33cdc03c assets/testmod/models/block/sound_block.json
+ba8b576b4171e02b62c9ae99c72a1a5a5ea742b1 assets/testmod/models/block/strawberry_stage0.json
+93442a3d92069d607c69aa61bad5a24e6ff82193 assets/testmod/models/block/strawberry_stage1.json
+9b17d7f2e127cdc2e9843d1b50f257a7bf5a5f81 assets/testmod/models/block/strawberry_stage2.json
+88f5d8ac5cd1f6dafeb82e4bece14a90e76bd9a9 assets/testmod/models/block/strawberry_stage3.json
+bf1cb5e403840037eddf27f9e544e10765546a29 assets/testmod/models/block/strawberry_stage4.json
+ebec6da51587b35c889acb988bd8c167a2ab4fe7 assets/testmod/models/block/strawberry_stage5.json
 c23d2d2420331faa243e4ded59e359ead84fa756 assets/testmod/models/item/deepslate_sapphire_ore.json
 b81dcce67791fc5b81778ea2b2ac4652092c8cc1 assets/testmod/models/item/endstone_sapphire_ore.json
 184d3a254b16a6674455f8cc081edf7aaa05c15d assets/testmod/models/item/nether_sapphire_ore.json
