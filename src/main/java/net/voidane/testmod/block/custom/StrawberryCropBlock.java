@@ -1,4 +1,4 @@
-package net.voidane.testmod.item.custom;
+package net.voidane.testmod.block.custom;
 
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;

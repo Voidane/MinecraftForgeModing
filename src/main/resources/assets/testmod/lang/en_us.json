@@ -16,6 +16,7 @@
   "item.testmod.sapphire_boots": "Sapphire Boots",
   "item.testmod.strawberry_seeds": "Strawberry Seeds",
 
+
   "block.testmod.sapphire_block": "Block of Sapphire",
   "block.testmod.sapphire_ore": "Sapphire Ore",
   "block.testmod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
@@ -31,6 +32,7 @@
   "block.testmod.sapphire_wall": "Sapphire Wall",
   "block.testmod.sapphire_door": "Sapphire Door",
   "block.testmod.sapphire_trapdoor": "Sapphire Trap Door",
+  "block.testmod.corn_crop": "Corn Crop Block",
 
 
   "creativetab.testmod_tab": "Test Mod Tab",
