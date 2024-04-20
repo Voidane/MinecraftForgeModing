@@ -1,4 +1,5 @@
-// 1.20.2	2024-04-20T11:38:26.8865096	Loot Tables
+// 1.20.2	2024-04-20T19:33:57.527144	Loot Tables
+a515d0084b45599b0709378f46d50f74319729d5 data/testmod/loot_tables/blocks/corn_crop.json
 a4147f156aafc88798c8472ff5651ff0e737535d data/testmod/loot_tables/blocks/deepslate_sapphire_ore.json
 315d90e3ce448393b824351f188378119be47616 data/testmod/loot_tables/blocks/endstone_sapphire_ore.json
 f5f48ea8d42a9cd0a1ce51912e0c564e191bda88 data/testmod/loot_tables/blocks/nether_sapphire_ore.json

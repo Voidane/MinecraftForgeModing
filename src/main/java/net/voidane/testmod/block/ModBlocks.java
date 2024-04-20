@@ -1,6 +1,5 @@
 package net.voidane.testmod.block;
 
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -12,11 +11,11 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.voidane.testmod.CreativeModeTabs.TestModTab;
 import net.voidane.testmod.TestMod;
+import net.voidane.testmod.block.custom.CornCropBlock;
 import net.voidane.testmod.block.custom.SoundBlock;
 import net.voidane.testmod.item.ModItems;
-import net.voidane.testmod.item.custom.StrawberryCropBlock;
+import net.voidane.testmod.block.custom.StrawberryCropBlock;
 
 import java.util.function.Supplier;
 
@@ -81,6 +80,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> STRAWBERRY_CROP = BLOCKS.register("strawberry_crop",
             () -> new StrawberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+
+    public static final RegistryObject<Block> CORN_CROP = BLOCKS.register("corn_crop",
+            () -> new CornCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {
