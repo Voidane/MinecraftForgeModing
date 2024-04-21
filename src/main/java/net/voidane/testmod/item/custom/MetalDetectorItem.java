@@ -3,6 +3,7 @@ package net.voidane.testmod.item.custom;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
@@ -14,6 +15,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
+import net.voidane.testmod.sound.ModSounds;
 import net.voidane.testmod.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
@@ -56,6 +58,11 @@ public class MetalDetectorItem extends Item {
                 if (isValuable(blockState))
                 {
                     found = true;
+
+                    // Plays the specific sound for this item when we find ore
+                    pContext.getLevel().playSeededSound(null, blockPos.getX(), blockPos.getY(), blockPos.getZ(),
+                            ModSounds.METAL_DETECTOR_FOUND_ORE.get(), SoundSource.BLOCKS, 1, 1, 0);
+
                     // Send message to player
                     player.sendSystemMessage(Component.literal("Valuable Block: " +
                             I18n.get(blockState.getBlock().getDescriptionId()) + " at " +

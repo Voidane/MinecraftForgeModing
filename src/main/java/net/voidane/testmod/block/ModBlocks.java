@@ -16,6 +16,7 @@ import net.voidane.testmod.block.custom.CornCropBlock;
 import net.voidane.testmod.block.custom.SoundBlock;
 import net.voidane.testmod.item.ModItems;
 import net.voidane.testmod.block.custom.StrawberryCropBlock;
+import net.voidane.testmod.sound.ModSounds;
 
 import java.util.function.Supplier;
 
@@ -42,8 +43,7 @@ public class ModBlocks {
                     .strength(2f)
                     .requiresCorrectToolForDrops(), UniformInt.of(3,6)));
     public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
-            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)
-                    .strength(1)));
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX).sound(ModSounds.SOUND_BLOCK_SOUNDS)));
 
     public static final RegistryObject<Block> SAPPHIRE_STAIRS = registerBlock("sapphire_stairs",
             () -> new StairBlock(() -> ModBlocks.SAPPHIRE_BLOCK.get().defaultBlockState(),

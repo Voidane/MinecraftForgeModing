@@ -37,5 +37,7 @@
 
   "creativetab.testmod_tab": "Test Mod Tab",
 
-  "testmod.block_translatable.metal_detector.tooltip.1": "§cThis item finds valuable ores"
+  "testmod.block_translatable.metal_detector.tooltip.1": "§cThis item finds valuable ores",
+
+  "sounds.testmod.metal_detector_found_ore": "Metal Detector Jingle"
 }
