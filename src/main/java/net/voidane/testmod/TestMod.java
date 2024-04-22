@@ -2,7 +2,7 @@ package net.voidane.testmod;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
-import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -15,6 +15,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.voidane.testmod.CreativeModeTabs.TestModTab;
 import net.voidane.testmod.block.ModBlocks;
+import net.voidane.testmod.entity.ModEntities;
+import net.voidane.testmod.entity.client.RhinoRenderer;
 import net.voidane.testmod.item.ModItems;
 import net.voidane.testmod.loot.ModLootModifiers;
 import net.voidane.testmod.sound.ModSounds;
@@ -43,6 +45,8 @@ public class TestMod
         ModLootModifiers.registerMethod(modEventBus);
         // Custom sounds
         ModSounds.register(modEventBus);
+        // Custom Mobs
+        ModEntities.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -84,6 +88,7 @@ public class TestMod
             // Some client setup code
             LOGGER.info("HELLO FROM CLIENT SETUP");
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+            EntityRenderers.register(ModEntities.RHINO.get(), RhinoRenderer::new);
         }
     }
 }

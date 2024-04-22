@@ -53,6 +53,7 @@ public class TestModTab {
                         pOutput.accept(ModItems.STRAWBERRY_SEEDS.get());
                         pOutput.accept(ModItems.CORN_SEEDS.get());
                         pOutput.accept(ModItems.CORN.get());
+                        pOutput.accept(ModItems.RHIN0_SPAWN_EGG.get());
                     }))
             .build());
 

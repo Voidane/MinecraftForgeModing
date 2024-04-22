@@ -39,5 +39,6 @@
 
   "testmod.block_translatable.metal_detector.tooltip.1": "§cThis item finds valuable ores",
 
-  "sounds.testmod.metal_detector_found_ore": "Metal Detector Jingle"
+  "sounds.testmod.metal_detector_found_ore": "Metal Detector Jingle",
+  "sounds.testmod.rhino_foot_steps": "Rhino_Footsteps"
 }

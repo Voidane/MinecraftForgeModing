@@ -1,9 +1,10 @@
-// 1.20.2	2024-04-20T19:33:57.5311452	Item Models: testmod
+// 1.20.2	2024-04-21T22:51:45.3254698	Item Models: testmod
 058c2f8f8be41db163ef3c7089fc5b9293183b79 assets/testmod/models/item/corn.json
 9d70135deeaa2d7d182d940b4361e7acffe08370 assets/testmod/models/item/corn_seeds.json
 d89ed460e9c5a6a8a06b154ab143e4a5a06307a4 assets/testmod/models/item/metal_detector.json
 da9149881566cecb1f3e2d718fe259631ba6153f assets/testmod/models/item/money.json
 2f41f2b970d351507c3598ede3a24acfda5acc78 assets/testmod/models/item/raw_sapphire.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/testmod/models/item/rhino_spawn_egg.json
 e3b32f83ca3aaa4f46841af3f084fa54c1fe2a53 assets/testmod/models/item/sapphire.json
 72a052ce87a4f263a77d31a45581fa7f3cf3db66 assets/testmod/models/item/sapphire_axe.json
 c0f38194e8307305865e9184f970b7c3da2eeac3 assets/testmod/models/item/sapphire_boots.json
