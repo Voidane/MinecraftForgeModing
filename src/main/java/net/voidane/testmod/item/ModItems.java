@@ -1,12 +1,16 @@
 package net.voidane.testmod.item;
 
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Mob;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.voidane.testmod.TestMod;
 import net.voidane.testmod.block.ModBlocks;
+import net.voidane.testmod.entity.ModEntities;
 import net.voidane.testmod.item.custom.MetalDetectorItem;
 import net.voidane.testmod.item.custom.ModArmorItem;
 
@@ -63,6 +67,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> CORN = ITEMS.register("corn",
             () -> new Item(new Item.Properties().food(ModFoods.CORN)));
+
+    public static final RegistryObject<Item> RHIN0_SPAWN_EGG = ITEMS.register("rhino_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.RHINO, 0x7e9680, 0xc5d1c5, new Item.Properties()));
 
     public static void register(IEventBus eventBus)
     {
